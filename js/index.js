@@ -10,7 +10,6 @@ const renderPosts = async (term) => {
 
     const res = await fetch(url)
     const posts = await res.json()
-    const postdetail = `./details.html?id=${post.id}`
 
     let template = ''
     posts.map(post => {
@@ -19,7 +18,7 @@ const renderPosts = async (term) => {
         <h2>${post.title}</h2>
         <p><small>${post.likes} likes</small></P>
         <p>${post.body.slice(0, 200)}</p>
-        <a href="${postdetail}">read more...</a>
+        <a href="./details.html?id=${post.id}">read more...</a>
        </div>
        `
     })
