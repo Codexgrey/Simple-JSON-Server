@@ -35,6 +35,12 @@
       "body": "Testing...",
       "likes": 0,
       "id": 8
+    },
+    {
+      "title": "Test 2",
+      "body": "Testing once more",
+      "likes": 0,
+      "id": 9
     }
   ],
   "polls": [
