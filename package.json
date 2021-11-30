@@ -1,0 +1,22 @@
+{
+  "name": "fake-server",
+  "version": "1.0.0",
+  "description": "dummy server with dummy database i.e fake REST api",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Codexgrey/Simple-JSON-Server.git"
+  },
+  "author": "Codexgrey",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Codexgrey/Simple-JSON-Server/issues"
+  },
+  "homepage": "https://codexgrey.github.io/Simple-JSON-Server/",
+  "dependencies": {
+    "json-server": "^0.17.0"
+  }
+}
