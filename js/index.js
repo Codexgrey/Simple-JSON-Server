@@ -3,7 +3,7 @@ const container = document.querySelector('.blogs');
 const searchForm = document.querySelector('.search');
 
 const renderPosts = async (term) => {
-    let url =  'http://localhost:3000/posts?_sort=likes&_order=desc';
+    let url =  'http://localhost:8000/posts?_sort=likes&_order=desc';
     if (term) {
         url += `&q=${term}`; // if the term is there, url = 'http://localhost:3000/posts?_sort=likes&_order=desc&q=${term}'
     }
