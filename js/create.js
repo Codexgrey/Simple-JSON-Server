@@ -15,7 +15,7 @@ const createpost = async (e) => {
         headers: { 'content-type': 'application/json' } // this is to say we're sending a json file
     })
 
-    window.location.replace('/Simple-JSON-Server'); // relocating user back to the home page
+    window.location.replace('./index.html'); // relocating user back to the home page
 };
 
 form.addEventListener('submit', createpost);
