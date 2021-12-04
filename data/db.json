@@ -23,6 +23,12 @@
       "body": "Testing to see that this project runs without a hitch.",
       "likes": 30,
       "id": 8
+    },
+    {
+      "title": "Final test",
+      "body": "Final Testing by Codexgrey",
+      "likes": 0,
+      "id": 9
     }
   ],
   "polls": [
