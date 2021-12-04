@@ -3,9 +3,10 @@ const container = document.querySelector('.blogs');
 const searchForm = document.querySelector('.search');
 
 const renderPosts = async (term) => {
-    let url =  'http://localhost:3000/posts?_sort=likes&_order=desc';
+    let url =  'http://localhost:3300/posts?_sort=likes&_order=desc';
     if (term) {
-        url += `&q=${term}`; // if the term is there, url = 'http://localhost:3000/posts?_sort=likes&_order=desc&q=${term}'
+        // if the term is there, url = 'http://localhost:3300/posts?_sort=likes&_order=desc&q=${term}'
+        url += `&q=${term}`;
     }
 
     const res = await fetch(url)
@@ -27,7 +28,8 @@ const renderPosts = async (term) => {
 
 searchForm.addEventListener('submit', (e) => {
     e.preventDefault();
-    renderPosts(searchForm.term.value.trim()); // trim to remove whitespace
+    // trim to remove whitespace
+    renderPosts(searchForm.term.value.trim()); 
 });
 
 window.addEventListener('DOMContentLoaded', () => renderPosts());

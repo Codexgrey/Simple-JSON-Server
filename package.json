@@ -15,7 +15,7 @@
   "bugs": {
     "url": "https://github.com/Codexgrey/Simple-JSON-Server/issues"
   },
-  "homepage": "https://codexgrey.github.io/Simple-JSON-Server/",
+  "homepage": "https://Codexgrey.github.io/Simple-JSON-Server/",
   "dependencies": {
     "json-server": "^0.17.0"
   }
