@@ -10,6 +10,6 @@ Building a simple JSON server. A JSON server allows you to easily create a dummy
 # To VIEW DEPLOYMENT
 
 Firstly - Clone this repo \
-Secondly - In your terminal run `npx json-server --watch data/db.json --port 3300`
-Thirdly - Visit; https://codexgrey.github.io/Simple-JSON-Server/
+Secondly - In your terminal run `npx json-server --watch data/db.json --port 3300`; \
+Thirdly - Visit; https://codexgrey.github.io/Simple-JSON-Server/; \
 ENJOY!
